@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
+//
+//
+$width: 1440;
+$height: 1000;
+$lineH: 48;
+//
+//
+// SIZE
+//
+//
+.size-typo0{
+    font-size: clamp(5px, calc((300 / $width) * 100vw), 300px);
+    line-height: clamp(5px, calc((300 / $width) * 100vw), calc(300* 1px));
+    letter-spacing: clamp(0px, calc((1 / $width) * 100vw), 10px) ;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.size-typo1{
+    font-size: clamp(5px, calc((60 / $width) * 100vw), 60px);
+    line-height: clamp(5px, calc(($lineH / $width) * 100vw), calc($lineH * 1px));
+    letter-spacing: clamp(0px, calc((1 / $width) * 100vw), 10px) ;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.size-typo2{
+    font-size: clamp(5px, calc((50 / $width) * 100vw), 50px);
+    line-height: clamp(5px, calc(($lineH / $width) * 100vw), calc($lineH * 1px));
+    letter-spacing: clamp(0px, calc((1 / $width) * 100vw), 10px) ;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.size-typo3{
+    font-size: clamp(5px, calc((40 / $width) * 100vw), 40px);
+    line-height: clamp(5px, calc(($lineH / $width) * 100vw), calc($lineH * 1px));
+    letter-spacing: clamp(0px, calc((1 / $width) * 100vw), 10px) ;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.size-typo4{
+    font-size: clamp(5px, calc((30 / $width) * 100vw), 30px);
+    line-height: clamp(5px, calc(($lineH / $width) * 100vw), calc($lineH * 1px));
+    letter-spacing: clamp(0px, calc((1 / $width) * 100vw), 10px) ;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.size-typo5{
+    font-size: clamp(5px, calc((25 / $width) * 100vw), 25px);
+    line-height: clamp(5px, calc(($lineH / $width) * 100vw), calc($lineH * 1px));
+    letter-spacing: clamp(0px, calc((1 / $width) * 100vw), 10px) ;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.size-typo6{
+    font-size: clamp(5px, calc((20 / $width) * 100vw), 20px);
+    line-height: clamp(5px, calc(($lineH / $width) * 100vw), calc($lineH * 1px));
+    letter-spacing: clamp(0px, calc((1 / $width) * 100vw), 10px) ;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.size-typo7{
+    font-size: clamp(5px, calc((15 / $width) * 100vw), 15px);
+    line-height: clamp(5px, calc(($lineH / $width) * 100vw), calc($lineH * 1px));
+    letter-spacing: clamp(0px, calc((1 / $width) * 100vw), 10px) ;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.size-typo8{
+    font-size: clamp(5px, calc((12 / $width) * 100vw), 12px);
+    line-height: clamp(5px, calc(($lineH / $width) * 100vw), calc($lineH * 1px));
+    letter-spacing: clamp(0px, calc((1 / $width) * 100vw), 10px) ;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.size-typo9{
+    font-size: clamp(5px, calc((10 / $width) * 100vw), 10px);
+    line-height: clamp(5px, calc(($lineH / $width) * 100vw), calc($lineH * 1px));
+    letter-spacing: clamp(0px, calc((1 / $width) * 100vw), 10px) ;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.size-typo10{
+    font-size: clamp(5px, calc((8 / $width) * 100vw), 8px);
+    line-height: clamp(5px, calc(($lineH / $width) * 100vw), calc($lineH * 1px));
+    letter-spacing: clamp(0px, calc((1 / $width) * 100vw), 10px) ;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+//
+//
+// COLOR
+//
+//
+$delaisColor: .5s;
+.cb{
+    color: #000000;
+}
+.cw{
+    color: #ffffff;
+}
+.c1{
+    color: var(--c1);
+    transition: color $delaisColor;
+}
+.c2{
+    color: var(--c2);
+    transition: color $delaisColor;
+}
+.c3{
+    color: var(--c3);
+    transition: color $delaisColor;
+}
+.c4{
+    color: var(--c4);
+    transition: color $delaisColor;
+}
+.c5{
+    color: var(--c5);
+    transition: color $delaisColor;
+}
+.c6{
+    color: var(--c6);
+    transition: color $delaisColor;
+}
+.c7{
+    color: var(--c7);
+    transition: color $delaisColor;
+}
+.c8{
+    color: var(--c8);
+    transition: color $delaisColor;
+}
+//
+//
+// TEXT
+//
+//
+.maj{
+    text-transform: uppercase;
+}
+.min{
+    text-transform: lowercase;
+}
