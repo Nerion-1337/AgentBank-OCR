@@ -17,7 +17,7 @@ Project de formation chez OpenClassRoom.
 
 # Visiter
 
-[Voir le Rendu](https://nerion-1337.github.io/SportSee-OCR/)
+[Voir le Rendu](https://nerion-1337.github.io/AgentBank-OCR/)
 
 # Aperçu
 
